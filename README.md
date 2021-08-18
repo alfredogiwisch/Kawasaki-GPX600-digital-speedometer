@@ -2,9 +2,7 @@
 Development of a digital speedometer in a Kawasaki GPX600
 
 I begin the 2010 year with a new development for my motorcycle. A digital panel to add new features giving a new look. Using the power and flexibility of 8 bit microcontrolers it was easy to complete the project development in short time.
-Next pictures shows a view of the the digital tachometer, digital gear position indicator and digital speedometer circuit boards. At the same time I add a bar-graph led acting as voltmeter for measuring the charge status of the battery aka the charge voltage.
-
-Latest update 29 March 2013:
+The includedpictures shows a view of the the digital tachometer, digital gear position indicator and digital speedometer circuit boards. At the same time I add a bar-graph led acting as voltmeter for measuring the charge status of the battery aka the charge voltage.
 
 Below is the speedometer program in assembler language for everyone who want to build it. The speedometer module use a PIC 16F628 microcontroller, same processor are used on the tachometer board. The counter is set for a sensor on the wheel with a pulse every 60 grads of rotation. The device has two up/down buttons to adjust the counter via GPS. Use the raw format in case of downloading the code. The 16F628 is backward compatible with previous 16F84 microcontroller.
 
