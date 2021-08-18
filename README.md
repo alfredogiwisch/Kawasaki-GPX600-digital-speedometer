@@ -6,7 +6,7 @@ Next pictures shows a view of the the digital tachometer, digital gear position 
 
 Latest update 29 March 2013:
 
-Below is the speedometer program in assembler language for everyone who want to build it. The speedometer module use a PIC 16F628 microcontroller, same processor are used on the tachometer board.
+Below is the speedometer program in assembler language for everyone who want to build it. The speedometer module use a PIC 16F628 microcontroller, same processor are used on the tachometer board. The counter is set for a sensor on the wheel with a pulse every 60 grads of rotation. The device has two up/down buttons to adjust the counter via GPS.
 
 The 16F628 is backward compatible with previous 16F84 microcontroller.
 ---------------------------------------------------------------------------------------------------------
